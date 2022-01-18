@@ -1,0 +1,14 @@
+*,*:before,*:after {
+    box-sizing: inherit;
+}
+
+html,body {
+    box-sizing: inherit;
+    margin: 0;
+    padding 0;
+}
+
+.hero {
+    height: 25vh;
+    background-color: #1F2937;
+}
