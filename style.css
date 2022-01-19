@@ -101,7 +101,46 @@ html,body {
     color: #F9FAF8;
     padding: .5rem 1rem;
     margin: 2vh 0;
+    cursor: pointer;
 }
+
+.section-1 {
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1 h1 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 5rem;
+    text-align: center;
+    color: #1F2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 10vw;
+    margin: 3rem 1rem;
+    text-align: center;
+}
+
+.card-text {
+    margin-top: .5rem;
+}
+
+.card-image {
+    background-color: crimson;
+    border-radius: 1rem;
+    height: 10rem;
+}
+
+
 
 
 
