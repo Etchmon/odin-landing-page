@@ -1,5 +1,5 @@
 *,*:before,*:after {
-    box-sizing: inherit;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -32,7 +32,7 @@ html,body {
     text-decoration: none;
     color: #E5E7Eb;
     font-size: 18px;
-    padding: 1.5rem;
+    padding: 1.2rem;
 }
 
 .header {
@@ -48,6 +48,7 @@ html,body {
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    padding-right: 3rem;
 }
 
 .title {
@@ -55,6 +56,7 @@ html,body {
     font-weight: 800;
     font-style: bold;
     color: #F9FAF8;
+    padding-right: 30%;
 }
 
 .paragraph {
@@ -64,12 +66,21 @@ html,body {
 
 .image-holder {
     width: 40vw;
-    height: 40vh;
     background-color: crimson;
 }
 
 .img {
     width: 100%;
+}
+
+.button {
+    background-color: #3882F6;
+    border-radius: 10%;
+    font-size: 24px;
+    border: none;
+    color: #F9FAF8;
+    padding: .5rem 1rem;
+    margin: 2vh 0;
 }
 
 
