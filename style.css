@@ -228,6 +228,13 @@ html,body {
     width: 30vw;
 }
 
+.footer {
+    padding: 2.5rem;
+    text-align: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
 
 
 
